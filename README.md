@@ -44,56 +44,54 @@ Shipping on this result would be a coin flip. I'd recommend retesting with a tar
 ### When Do Users Order?
 > Peak ordering is around 10am–3pm. Sunday and Monday are the busiest days — useful context for deciding when to run future experiments.
 
-![Orders by Hour and Day](img/01_orders_timing.png)
-
 ---
 
 ### Reorder Rate Distribution: Control vs Variant
 > Both groups show nearly identical distributions — visually consistent with a non-significant result.
 
-![Reorder Distribution](img/02_reorder_distribution.png)
+
 
 ---
 
 ### Normality Check — QQ Plots
 > Both groups deviate clearly from normality. The left tail sits flat at y=0 — this is zero-inflation from one-time shoppers with reorder_rate = 0. This is exactly why I chose Mann-Whitney U over a t-test.
 
-![QQ Plots](img/03_qq_plots.png)
+
 
 ---
 
 ### Bootstrap Confidence Interval (10,000 resamples)
 > The CI crosses zero, confirming we cannot be confident the variant is genuinely better than control.
 
-![Bootstrap CI](img/04_bootstrap_ci.png)
+
 
 ---
 
 ### Power Analysis
 > My sample of 103,104 per group is 18x larger than what was needed. Non-significance here means the effect is genuinely small — not that the test was underpowered.
 
-![Power Analysis](img/05_power_analysis.png)
+
 
 ---
 
 ### Novelty Effect Check
 > Early uplift (+0.13%) and late uplift (+0.08%) are both tiny and consistent — no novelty bias detected. The badge simply doesn't move the needle regardless of exposure timing.
 
-![Novelty Effect](img/06_novelty_effect.png)
+
 
 ---
 
 ### Segment Analysis
 > Light users (1-5 orders) showed the highest uplift. If I retested, I'd target only this segment rather than the full user base.
 
-![Segment Analysis](img/07_segment_analysis.png)
+
 
 ---
 
 ### Business Impact
 > Net gain looks positive (KRW 14M/month) but is built on a statistically insignificant uplift. This number cannot be trusted — it could just as easily be negative.
 
-![Business Impact](img/08_business_impact.png)
+
 
 ---
 
