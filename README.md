@@ -11,6 +11,9 @@ Food delivery and grocery platforms live and die by **retention**. Getting a use
 
 > *If we show users a discount badge on product cards, does it meaningfully increase reorder rates — and does the revenue justify the discount cost?*
 
+<img width="733" height="142" alt="ab_test_explainer" src="https://github.com/user-attachments/assets/03ae5f44-2858-4829-915f-b3f3054028a1" />
+
+
 This mirrors the type of experimentation run daily at companies like Coupang Eats, DoorDash, and Instacart.
 
 ---
